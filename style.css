@@ -74,17 +74,17 @@ p.link {
 p.paragraph {
     /* padding-top: 10rem; */
     padding-bottom: 0.5rem;
-    font-size:smaller
+    font-size:small;
 }
 
 p.back {
     padding-top: 2rem;
     padding-bottom: 0.5rem;
-    font-size:smaller
+    font-size:small;
 }
 
 h1 {
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 0.5rem
 }
 
@@ -103,16 +103,16 @@ a:hover {
 }
 
 body.small {
-    font-size: x-small;
+    font-size: small;
 }
 
 a.tinylink {
-    font-size: x-small;
+    font-size: small;
     color: rgb(112, 128, 218);
 }
 
 a.tinylink:hover {
-    font-size: x-small;
+    font-size: small;
     /* color: rgb(100, 100, 100); */
     color: #8e60a3;
 }
