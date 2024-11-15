@@ -1,0 +1,137 @@
+/* mic test 1 2 3 */
+
+body,
+html {
+    font-family: "Xanh Mono", serif;
+    height: 100%;
+    /* max-width: 500px; */
+    /* display: flex; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 226, 188, 0.612);
+    color: rgb(112, 128, 218);
+    /* color: #ffedf8; */
+
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+ }
+
+#main-container {
+    width: 100%;
+    height: 90%;
+    /* padding: 100px 0; */
+    /* margin-top: -200px; */
+    position:relative;
+}
+
+
+#container {
+    display: table;
+    width: 70%;
+    height: 100%;
+    /* margin-top: 100px; */
+    padding: 0 15%;
+}
+
+#cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.xanh-mono-regular {
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.italic {
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p {
+    /* padding-top: 10rem; */
+    padding-bottom: 0.7rem;
+}
+
+p.link {
+    /* padding-top: 10rem; */
+    padding-bottom: 2rem;
+}
+
+p.paragraph {
+    /* padding-top: 10rem; */
+    padding-bottom: 0.5rem;
+    font-size:smaller
+}
+
+p.back {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size:smaller
+}
+
+h1 {
+    font-size: x-large;
+    margin-bottom: 0.5rem
+}
+
+h3 {
+    margin-bottom: 2rem
+}
+
+a {
+    font-size: regular;
+    color: rgb(112, 128, 218);
+}
+
+a:hover {
+    font-size: regular;
+    color: #8e60a3;
+}
+
+body.small {
+    font-size: x-small;
+}
+
+a.tinylink {
+    font-size: x-small;
+    color: rgb(112, 128, 218);
+}
+
+a.tinylink:hover {
+    font-size: x-small;
+    /* color: rgb(100, 100, 100); */
+    color: #8e60a3;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
