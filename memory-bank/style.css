@@ -118,7 +118,7 @@ img {
     background-color: #ffffff;
 }
 
-.item:hover .overlay  {
+.item:hover, .item:active, .overlay  {
     opacity: 0.8;
     text-align: center;
 }
