@@ -127,7 +127,7 @@ a.tinylink:hover {
     color: #8e60a3;
 }
 
-.tooltip {
+/* .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
@@ -143,4 +143,4 @@ a.tinylink:hover {
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-}
+} */
