@@ -73,7 +73,7 @@ h1:hover, h1:active {
     font-size:medium;
 }
 
-.navbar a:hover {
+.navbar a:hover a:active a:focus {
     color: #FF5C2A;
     cursor: text;
 }
