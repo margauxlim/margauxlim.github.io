@@ -118,7 +118,7 @@ img {
     background-color: #ffffff;
 }
 
-.item:hover, .item:active, .overlay  {
+.item:hover .overlay  {
     opacity: 0.8;
     text-align: center;
     /* -webkit-tap-highlight-color: transparent; */
