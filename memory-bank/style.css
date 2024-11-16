@@ -119,7 +119,7 @@ img {
 }
 
 .item:hover .overlay {
-    opacity: 0.6;
+    opacity: 0.8;
     text-align: center;
 }
 
