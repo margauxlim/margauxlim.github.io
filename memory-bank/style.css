@@ -119,12 +119,12 @@ img {
 }
 
 .item:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.6;
     text-align: center;
 }
 
 .text-hover {
-    color: #747474;
+    color: #1c1c1c;
     position: absolute;
     top: 50%;
     left: 50%;
