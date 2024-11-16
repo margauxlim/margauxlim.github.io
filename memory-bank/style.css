@@ -63,7 +63,7 @@ body {
     font-size: 1.5rem;
 }
 
-h1:hover {
+h1:hover, h1:active {
     color: #FF5C2A;
 }
 
@@ -118,7 +118,7 @@ img {
     background-color: #ffffff;
 }
 
-.item:hover .overlay {
+.item:hover .item:active .overlay  {
     opacity: 0.8;
     text-align: center;
 }
@@ -134,7 +134,7 @@ img {
     text-align: center;
 }
 
-.text-hover:hover {
+.text-hover:hover, .text-hover:active {
     color: #FF5C2A;
     opacity: 1 !important;
 }
