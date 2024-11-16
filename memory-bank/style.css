@@ -73,7 +73,7 @@ h1:hover, h1:active {
     font-size:medium;
 }
 
-.navbar a:hover a:active a:focus {
+.navbar a:hover {
     color: #FF5C2A;
     cursor: text;
 }
@@ -118,7 +118,7 @@ img {
     background-color: #ffffff;
 }
 
-.item:hover .item:active .overlay  {
+.item:hover .item:active .item:focus .overlay  {
     opacity: 0.8;
     text-align: center;
 }
