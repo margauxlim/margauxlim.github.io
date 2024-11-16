@@ -1,0 +1,161 @@
+body {
+    color: #1c1c1c;
+    font-family: "DM Mono";
+    /* background-color: #edffff; */
+    background-color: #ffffff;
+}
+
+.dm-mono-light {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.dm-mono-regular {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-mono-medium {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dm-mono-light-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.dm-mono-regular-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.dm-mono-medium-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.main_container {
+    min-height: 100vh;
+    width: 100%;
+    overflow: visible;
+}
+
+.navbar {
+    width: 95%;
+    padding: 0 2.5%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+​ h1 {
+    font-size: 1.5rem;
+}
+
+h1:hover {
+    color: #FF5C2A;
+}
+
+.navbar a {
+    color: #1c1c1c;
+    padding: 10px 12px;
+    font-size:medium
+}
+
+.navbar a:hover {
+    color: #FF5C2A;
+    cursor: text;
+}
+
+.container {
+    width: 95%;
+    padding: 0 2.5%;
+}
+
+.columns {
+    margin-top: 80px;
+    columns: 20rem;
+    column-gap: 1rem;
+    max-width: calc(4 * 1fr);
+}
+
+.item {
+    margin: 0.5rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.columns .item:first-child {
+    margin-top: -0.85rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #ffffff;
+}
+
+.item:hover .overlay {
+    opacity: 0.5;
+    text-align: center;
+}
+
+.text-hover {
+    color: #747474;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-hover:hover {
+    color: #FF5C2A;
+    opacity: 1 !important;
+}
+
+ul#memories {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #1c1c1c;
+    font-family: "DM Mono";
+    padding: 10px 12px;
+    font-size: medium;
+    text-decoration: underline;
+    text-align: left;
+}
+
+button:hover {
+    color: #FF5C2A;
+    cursor: text;
+}

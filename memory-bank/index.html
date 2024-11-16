@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Xanh+Mono&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>margo's memory bank</title>
+
+
+</head>
+
+<body>
+
+    <!-- 100% sure there's a better way to go about this with js but for now.... this will do -->
+
+    <div class="main_container">
+        <div class="navbar">
+            <h1 class="dm-mono-light">memory bank</h1>
+            <p>
+                <button type="submit" onClick="refreshPage()">rearrange memories 𖦹</button>
+                <a href="https://margauxlim.github.io">⌂</a>
+
+
+            </p>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <ul id="memories">
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/airplane cafe w margret, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">airplane cafe w margret, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/cup nyadle, 2024.jpeg"
+                                class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">cup nyadle, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/first vn trip to see lammy, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">first vn trip to see lammy, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/probably from a party, probably 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">probably from a party, probably 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/i think it was raspberry macaron, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">i think it was raspberry macaron, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/iced coffee, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">iced coffee, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/stars from guts, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">stars from guts, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/sushiro 혼밥, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">sushiro 혼밥, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories/the jollibee chickenjoy meal in vietnam has soup!, 2024.jpeg" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">the jollibee chickenjoy meal in vietnam has soup!, 2024</div>
+                            </div>
+                        </div>
+                    </li>
+
+<!-- 
+                    <li>
+                        <div class="item">
+                            <img src="/memory-bank/memories" class="image" loading="lazy">
+                            <div class="overlay">
+                                <div class="text-hover">the jollibee chickenjoy meal in vietnam has soup!, 2024</div>
+                            </div>
+                        </div>
+                    </li> -->
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        function shuffleElements(container) {
+            var elements = container.children;
+            for (var i = elements.length; i >= 0; i--) {
+                container.appendChild(elements[Math.random() * i | 0]);
+            }
+        }
+
+        window.addEventListener('load', function () {
+            var container = document.getElementById('memories');
+            shuffleElements(container);
+        });
+
+        function refreshPage() {
+            window.location.reload();
+        }
+
+    </script>
+
+</body>
+
+
+</html>
