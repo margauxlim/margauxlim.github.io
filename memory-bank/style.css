@@ -121,6 +121,7 @@ img {
 .item:hover, .item:active, .overlay  {
     opacity: 0.8;
     text-align: center;
+    /* -webkit-tap-highlight-color: transparent; */
 }
 
 .text-hover {
@@ -132,6 +133,7 @@ img {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    /* -webkit-tap-highlight-color: transparent; */
 }
 
 .text-hover:hover {
