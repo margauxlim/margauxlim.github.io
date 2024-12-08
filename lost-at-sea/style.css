@@ -161,7 +161,7 @@ div#words {
 
 #star:nth-of-type(22) {
     left: 1032px;
-    top: 82px;
+    top: 0px;
 }
 
 #star:nth-of-type(23) {
@@ -171,27 +171,37 @@ div#words {
 
 #star:nth-of-type(24) {
     left: 373px;
-    top: 12px;
+    top: 0px;
 }
 
 #star:nth-of-type(25) {
     left: 203px;
-    top: 40px;
+    top: 12px;
 }
 
 #star:nth-of-type(26) {
     left: 1342px;
-    top: 20px;
+    top: 0px;
 }
 
 #star:nth-of-type(27) {
-    left: 30px;
-    top: 30px;
+    left: 40px;
+    top: 0px;
 }
 
 #star:nth-of-type(28) {
     left: 145px;
-    top: 132px;
+    top: 12px;
+}
+
+#star:nth-of-type(29) {
+    left: 324px;
+    top: 0px;
+}
+
+#star:nth-of-type(30) {
+    left: 200px;
+    top: 60px;
 }
 
 a {
