@@ -12,3 +12,16 @@ div.room {
     margin-bottom: 10px;
     /* display: flex; */
 }
+
+/* #infinite-waiting-rooms {
+	scroll-snap-type: y mandatory;
+} */
+
+
+/* @keyframes scrolling {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    } */
